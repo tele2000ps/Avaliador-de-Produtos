@@ -1,0 +1,69 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #191919;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #fff; /* Branco para contraste */
+}
+
+#produto-table {
+  width: 90%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra mais escura */
+  background-color: #282828; /* Fundo ligeiramente mais claro para a tabela */
+  border-radius: 5px; /* Borda arredondada */
+}
+
+#produto-table th, #produto-table td {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: left;
+  color: #fff; /* Branco para o texto */
+}
+
+#produto-table th {
+  background-color: #383838; /* Cor do cabeçalho */
+  font-weight: bold;
+}
+
+#produto-table input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+#resultado {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#resultado p {
+  font-size: 1.2rem; /* Tamanho de fonte padrão */
+  font-weight: normal; /* Sem negrito */
+  color: #fff; /* Branco para o texto */
+}
+
+#avaliacao {
+  font-size: 1.2rem; /* Tamanho de fonte padrão */
+  font-weight: normal; /* Sem negrito */
+  color: #fff; /* Branco para o texto */
+}
+
+/* Responsividade - Ajuste a largura da tabela para dispositivos menores */
+@media (max-width: 600px) {
+  #produto-table {
+    font-size: 14px;
+  }
+}

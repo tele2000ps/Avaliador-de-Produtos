@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Avaliador de Produtos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Avaliador de Produtos</h1>
+
+  <table id="produto-table">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Check</th>
+        <th>Pontuação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Tem Proposta única de vendas?</td>
+        <td><input type="checkbox" id="item1"></td>
+        <td id="item1-score">0</td>
+      </tr>
+      <tr>
+        <td>Tem preço máximo e mínimo do produto?</td>
+        <td><input type="checkbox" id="item2"></td>
+        <td id="item2-score">0</td>
+      </tr>
+      <tr>
+        <td>O produtor faz conversão de boletos?</td>
+        <td><input type="checkbox" id="item3"></td>
+        <td id="item3-score">0</td>
+      </tr>
+      <tr>
+        <td>A comissão mínima é de 45%?</td>
+        <td><input type="checkbox" id="item4"></td>
+        <td id="item4-score">0</td>
+      </tr>
+      <tr>
+        <td>Faz parte de um dos 5 nichos poderosos?</td>
+        <td><input type="checkbox" id="item5"></td>
+        <td id="item5-score">0</td>
+      </tr>
+      <tr>
+        <td>Tem as páginas indispensáveis?</td>
+        <td><input type="checkbox" id="item6"></td>
+        <td id="item6-score">0</td>
+      </tr>
+      <tr>
+        <td>As páginas do produto são responsivas (mobile)?</td>
+        <td><input type="checkbox" id="item7"></td>
+        <td id="item7-score">0</td>
+      </tr>
+      <tr>
+        <td>Tem respostas a reclamações no Reclame Aqui?</td>
+        <td><input type="checkbox" id="item8"></td>
+        <td id="item8-score">0</td>
+      </tr>
+      <tr>
+        <td>Tem depoimentos nas páginas (prova social)?</td>
+        <td><input type="checkbox" id="item9"></td>
+        <td id="item9-score">0</td>
+      </tr>
+      <tr>
+        <td>Produto tem eficácia comprovada?</td>
+        <td><input type="checkbox" id="item10"></td>
+        <td id="item10-score">0</td>
+      </tr>
+      <tr>
+        <td>Tem upsells imediatos?</td>
+        <td><input type="checkbox" id="item11"></td>
+        <td id="item11-score">0</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div id="resultado">
+    <p>TOTAL: <span id="total-score">0</span></p> 
+    <p>AVALIAÇÃO: <span id="avaliacao"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
